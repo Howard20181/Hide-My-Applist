@@ -67,7 +67,7 @@ dependencies {
 
     implementation("com.android.tools.build:apksig:$agpVersion")
     implementation("com.github.kyuubiran:EzXHelper:1.0.3")
-    implementation("dev.rikka.hidden:compat:3.4.3")
+    implementation("dev.rikka.hidden:compat:4.2.0")
     compileOnly("de.robv.android.xposed:api:82")
-    compileOnly("dev.rikka.hidden:stub:3.4.3")
+    compileOnly("dev.rikka.hidden:stub:4.2.0")
 }
