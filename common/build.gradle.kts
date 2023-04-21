@@ -17,6 +17,9 @@ android {
         buildConfigField("int", "SERVICE_VERSION", serviceVerCode.toString())
         buildConfigField("int", "MIN_BACKUP_VERSION", minBackupVerCode.toString())
     }
+    buildFeatures {
+        aidl = true
+    }
 }
 
 dependencies {
